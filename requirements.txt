@@ -1,0 +1,22 @@
+# core
+pydantic>=2.6
+python-dotenv>=1.0
+numpy>=1.26
+# ingestion
+pymupdf>=1.24
+beautifulsoup4>=4.12
+lxml>=5.0
+# search
+faiss-cpu>=1.8
+rank-bm25>=0.2.2
+fastembed>=0.3
+# llm (OpenAI-compatible client: Groq, Gemini, OpenAI, OpenRouter, Ollama)
+openai>=1.40
+# api
+fastapi>=0.110
+uvicorn[standard]>=0.29
+# ui (bonus)
+streamlit>=1.33
+# tests
+pytest>=8.0
+httpx>=0.27

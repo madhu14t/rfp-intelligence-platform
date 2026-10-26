@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+index_store/
+.pytest_cache/
+*.egg-info/
+runs/*/
+!runs/20261026-110104-af74b5/
+!runs/20261026-104812-8de182/

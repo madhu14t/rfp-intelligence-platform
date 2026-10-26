@@ -1,0 +1,384 @@
+{
+  "bid_id": "Bid2",
+  "generated_at": "2026-10-26T05:19:41Z",
+  "fields": {
+    "Bid Number": {
+      "value": "#E20P4600040",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-6456cc576ce10828",
+          "quote": "PORFP Number: #E20P4600040 eMMA Project Number: BPM044557"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-64a7027e718427a3",
+          "quote": "PORFP Number: | #E20P4600040 eMMA Project Number: BPM044557"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-d417c3c691a75dab",
+          "quote": "“QUESTION for Dell Laptop #E20P4600040”"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-b0a28f61a6f8b238",
+          "quote": "“QUESTION for Dell Laptop #E20P4600040”"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Found explicitly in the General Information section and email subject guidelines."
+    },
+    "Title": {
+      "value": "Dell Laptops w/Extended Warranty",
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-399ef37863bbcff1",
+          "quote": "Title\nDell Laptops w/Extended Warranty"
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-623977966b848cbf",
+          "quote": "| Title | Dell Laptops w/Extended Warranty |"
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-e8f2f154bb882c08",
+          "quote": "| Title | Dell Laptops w/Extended Warranty |"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The title of the bid is explicitly stated as 'Dell Laptops w/Extended Warranty' across multiple evidence passages."
+    },
+    "Due Date": {
+      "value": "2024-06-10 14:00 EDT",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-6456cc576ce10828",
+          "quote": "PROPOSAL DUE 06/10/2024 mm/dd/yyyy DATE and TIME:"
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-399ef37863bbcff1",
+          "quote": "Closing Date\n06/10/2024 02:00 PM EDT"
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Original wording: PROPOSAL DUE 06/10/2024 DATE and TIME (with closing time 02:00 PM EDT found on the bid page E5)."
+    },
+    "Bid Submission Type": {
+      "value": "Electronic portal (eMMA e-Procurement system)",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-060f8b88a1030682",
+          "quote": "Purchase Order Request for Proposal (PORFP) responses will only be accepted through the State's eMaryland Marketplace Advantage (eMMA) e-Procurement system."
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Bids must be submitted through the eMMA e-Procurement system and will not be accepted by email, fax, U.S. Mail, or hand delivery."
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Not found in documents"
+    },
+    "Pre Bid Meeting": {
+      "value": "None",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-b0a28f61a6f8b238",
+          "quote": "Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-d417c3c691a75dab",
+          "quote": "Questions Due (Closing) Date and Time:\n06/01/2024 at 2:00 PM EDT"
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-623977966b848cbf",
+          "quote": "Closing Date | 06/10/2024 02:00 PM EDT"
+        },
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-399ef37863bbcff1",
+          "quote": "Closing Date\n06/10/2024 02:00 PM EDT"
+        }
+      ],
+      "confidence": 0.8,
+      "notes": "No pre-bid meeting is mentioned in the provided documents, therefore defaulting to 'None'."
+    },
+    "Installation": {
+      "value": "Yes - CFI (Custom Factory Installation) / Factory Install services including asset tagging and custom imaging options are included as per the product specs.",
+      "sources": [
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-32f434002c29ef8c",
+          "quote": "CFI,Information,MIAS, Post Bur n,Factory Install 362-7806"
+        }
+      ],
+      "confidence": 0.8,
+      "notes": "Custom Factory Installation (CFI) and factory install options are present in the configuration/specs document."
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Not found in documents"
+    },
+    "Delivery Date": {
+      "value": "Within 45 days of Award",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-d417c3c691a75dab",
+          "quote": "9. Delivery within 45 days of Award."
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-b0a28f61a6f8b238",
+          "quote": "Delivery within 45 days of Award ."
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The delivery requirement is explicitly stated as within 45 days of award."
+    },
+    "Payment Terms": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.0,
+      "notes": "Not found in documents"
+    },
+    "Any Additional Documentation Required": {
+      "value": [
+        "Mercury Affidavit",
+        "Contract Affidavit"
+      ],
+      "sources": [
+        {
+          "file": "Mercury_Affidavit.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-4f72e04aab88d821",
+          "quote": "MERCURY AFFIDAVIT"
+        },
+        {
+          "file": "Contract_Affidavit.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-ac57d4cc5f65ab41",
+          "quote": "Contract_Affidavit.pdf"
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "Identified required affidavits from the document titles."
+    },
+    "MFG for Registration": {
+      "value": "Dell",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-b0a28f61a6f8b238",
+          "quote": "The Master Contractor must be an authorized reseller for Dell ."
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-d417c3c691a75dab",
+          "quote": "The Master Contractor must be an authorized reseller for Dell."
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-64a7027e718427a3",
+          "quote": "Manufacturer Name Dell"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The bidder must be an authorized reseller for Dell."
+    },
+    "Contract or Cooperative to use": {
+      "value": "Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-64a7027e718427a3",
+          "quote": "Only Master Contractors that are awarded a contract under the Desktop Laptop and Tablet 2015 Master Contract , , 060B5400007 are eligible to submit a bid"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-6456cc576ce10828",
+          "quote": "Desktop, Laptop and Tablet 2015 Master Contract,\n060B5400007"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Extracted from Special Instructions referencing the Master Contract vehicle for the secondary competition PORFP."
+    },
+    "Model_no": {
+      "value": [
+        "Latitude 5550 (Qty: 30)",
+        "WD22TB4 (Qty: 30)"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-5cf0ac2e704f2dc4",
+          "quote": "1. SI# CC7802 Dell SI# CC7802 Dell Latitude SI# CC7802 30 06/10/2024 Latitude 5550\n2. Dell Thunderbolt 4 Dell Thunderbolt 4 Dock – WD22TB4 30 06/10/2024 Dock – WD22TB4 WD22TB4"
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Model numbers extracted include Dell Latitude 5550 (quantity 30) and Dell Thunderbolt 4 Dock - WD22TB4 (quantity 30)."
+    },
+    "Part_no": {
+      "value": [
+        "Latitude 5550 (Qty: 30)",
+        "WD22TB4 (Qty: 30)"
+      ],
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-5cf0ac2e704f2dc4",
+          "quote": "1. SI# CC7802 Dell SI# CC7802 Dell Latitude SI# CC7802 30 06/10/2024 Latitude 5550\n2. Dell Thunderbolt 4 Dell Thunderbolt 4 Dock – WD22TB4 30 06/10/2024 Dock – WD22TB4 WD22TB4"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Extracted the model part numbers and quantities from Section 4 of the PORFP."
+    },
+    "Product": {
+      "value": [
+        "30 x Dell Latitude 5550 Laptops",
+        "30 x Dell Thunderbolt 4 Dock – WD22TB4"
+      ],
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-623977966b848cbf",
+          "quote": "1. SI# CC7802 Dell Latitude 5550 SI# CC7802 Dell Latitude 5550 *Laptops must be Microsoft Copilot ready* SI# CC7802 30 06/10/2024 2. Dell Thunderbolt 4 Dock – WD22TB4 Dell Thunderbolt 4 Dock – WD22TB4 WD22TB4 30 06/10/2024"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Extracted product names and quantities from the bid description."
+    },
+    "contact_info": {
+      "value": {
+        "name": "Tamaira Hawkins",
+        "email": "thawkins@treasurer.state.md.us",
+        "phone": "410-260-7533"
+      },
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-399ef37863bbcff1",
+          "quote": "Contact Information\nTamaira Hawkins\n410-260-7533\nThawkins@treasurer.state.md.us"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-d75dd6b2303e2fb0",
+          "quote": "Agency POC Name: Tamaira Hawkins Agency POC 410-260-7533"
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Extracted the procurement contact Tamaira Hawkins with corresponding email and phone number from the agency POC information and bid contact details."
+    },
+    "company_name": {
+      "value": "State Treasurer's Office",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "Bid2-89a6ef2583c44681",
+          "quote": "Agency / Division Name: State Treasurer's Office/ Information Technology"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-4d65754d746fb0aa",
+          "quote": "MD State Treasurer’s Office"
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "The issuing agency is the Maryland State Treasurer's Office / Information Technology."
+    },
+    "Product Specification": {
+      "value": "Dell Latitude 5550 with Intel Core Ultra 5 125U processor, 16 GB DDR5 RAM, 256 GB SSD, 15.6\" FHD display, Windows 11 Pro, and 3-Year Dell Limited Hardware Warranty.",
+      "sources": [
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-5cf0ac2e704f2dc4",
+          "quote": "1. SI# CC7802 Dell SI# CC7802 Dell Latitude SI# CC7802 30 06/10/2024\nLatitude 5550 5550\n*Laptops must be\nMicrosoft Copilot ready*"
+        },
+        {
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 1,
+          "chunk_id": "Bid2-660fbee6a690a987",
+          "quote": "Intel Core Ultra 5 125U processor (12 MB cache, 12 cores, 14 379-BFNZ threads, up to 4.3 GHz Turbo)\n16 GB: 2 x 8 GB, DDR5, 5600 MT/s\n256 GB, M.2 2230, TLC, Gen 4 PCIe NVMe, SSD\n15.6\", FHD 1920x1080, 60Hz, IPS, Non-Touch"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-c55f91579c5d0d6e",
+          "quote": "Dell Limited Hardware Warranty Extended for all machines purchased 3 Years -"
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Extracted key specifications including CPU, RAM, storage, display, and warranty from the laptop specifications and RFP documents."
+    },
+    "Bid Summary": {
+      "value": "The State of Maryland Treasurer's Office is soliciting proposals for Dell Laptops and associated peripherals under solicitation number BPM044557 (Reference Number 00004079359). The procurement includes 30 units of Dell Latitude 5550 laptops that must be Microsoft Copilot ready, alongside 30 units of Dell Thunderbolt 4 Docks (WD22TB4). Key dates include a publication date of May 28, 2024, and a closing submission date of June 10, 2024, at 2:00 PM EDT. Notable requirements include a 3-year Dell Limited Hardware Warranty and a refresh need for MD529 employees.",
+      "sources": [
+        {
+          "file": "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html",
+          "page": 1,
+          "chunk_id": "Bid2-399ef37863bbcff1",
+          "quote": "State of Maryland Treasurer's Office"
+        },
+        {
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "Bid2-5cf0ac2e704f2dc4",
+          "quote": "Office is in need of a refresh of laptops and must acquire enough laptops to accommodate MD529 employees"
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Summary generated successfully based on bid details and scope of work."
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 17,
+    "failed": 0,
+    "not_found": 3,
+    "issues": [],
+    "failed_fields": []
+  },
+  "run_id": "20261026-104812-8de182"
+}

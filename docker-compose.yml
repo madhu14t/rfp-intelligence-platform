@@ -1,0 +1,24 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    ports: ["8000:8000"]
+    volumes:
+      - ./data:/app/data
+      - ./index_store:/app/index_store
+      - ./outputs:/app/outputs
+      - ./runs:/app/runs
+    command: >
+      sh -c "python main.py index ./data/Bid1 ./data/Bid2 &&
+             python main.py serve --host 0.0.0.0 --port 8000"
+  ui:
+    build: .
+    env_file: .env
+    ports: ["8501:8501"]
+    volumes:
+      - ./data:/app/data
+      - ./index_store:/app/index_store
+      - ./outputs:/app/outputs
+      - ./runs:/app/runs
+    command: streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on: [api]

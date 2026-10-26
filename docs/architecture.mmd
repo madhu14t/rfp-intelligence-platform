@@ -1,0 +1,37 @@
+flowchart TB
+    subgraph Ingestion["Part A - Ingestion"]
+        F[/"Bid folder: HTML + PDFs"/]
+        P["Parsers: BeautifulSoup / PyMuPDF (+tables)"]
+        C["Cleaning + doc_type / addendum / page metadata"]
+        K["Section + table aware chunker"]
+        F --> P --> C --> K
+    end
+    subgraph Search["Part B - Search engine"]
+        VS[("FAISS dense index<br/>bge-small-en-v1.5")]
+        KS[("BM25 keyword index")]
+        META[("SQLite metadata")]
+        Q["Query expansion / rewrite"]
+        RRF["Metadata filter + RRF fusion"]
+        RR["LLM re-ranker (Groq 8b)"]
+        K --> VS & KS & META
+        Q --> RRF
+        VS & KS --> RRF --> RR
+    end
+    subgraph Agents["Part C - Multi-agent system"]
+        O["Orchestrator / Planner<br/>SharedState, asyncio fan-out, retry loop"]
+        IA["Ingestion Agent"]
+        RA["Retrieval Agent"]
+        EA["Extraction Agents<br/>Dates&Logistics | Commercial&Legal | Product&Specs"]
+        REC["Addendum Reconciliation"]
+        VAL["Validator / Critic"]
+        QA["Q&A / Report Agent"]
+        O --> IA --> F
+        O --> RA --> RR
+        RA --> EA --> REC --> VAL
+        VAL -- "rejected fields + feedback" --> RA
+        VAL --> QA
+    end
+    CLI["CLI / FastAPI / Streamlit"] --> O
+    CLI --> RRF
+    O --> TR[("runs/run_id/trace.jsonl")]
+    QA --> OUT[("outputs/Bid.json")]
