@@ -1,0 +1,22 @@
+{
+  "bid_id": "Bid1",
+  "output": "outputs\\Bid1.json",
+  "validation": {
+    "passed": 14,
+    "failed": 0,
+    "not_found": 6,
+    "issues": [],
+    "failed_fields": []
+  },
+  "llm_usage": {
+    "calls": 22,
+    "prompt_tokens": 57707,
+    "completion_tokens": 4212,
+    "total_tokens": 61919,
+    "latency_ms": 33222.6,
+    "by_model": {
+      "gemini-3.5-flash-lite": 22
+    }
+  },
+  "trace": "runs\\20261026-110104-af74b5\\trace.jsonl"
+}
